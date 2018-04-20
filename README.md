@@ -48,7 +48,10 @@ Die Beispieldatenbankzugriffe könnt ihr mit Hilfe der Links aufrufen:
 * http://localhost:3000/alltables
 
 
+## Issues
 
+Bei Problemen und Fragen bitte ich euch folgenden Link zu benutzen:
+https://github.com/3HMonkey/EXA_NODE/issues
 
 
 
