@@ -16,6 +16,8 @@ Dieser Leitfaden soll eine Startanleitung sein, welche dir die ersten Einblicke 
 
 * Klone oder lade das Repository herunter
 * Entpacke es in einen beliebigen Pfad (sofern nicht geklont)
+* Navigiere in das Projektverzeichnis, indem die die Kommandoconsole benutzt
+* führe den Befehl "npm install" aus
 
 ### Settings
 
@@ -31,7 +33,21 @@ var config = {
     maxpoolsize: 50,
     properties: {}
 };
-´´´
+```
+
+### Prepare to fight
+
+* Nun kann die Exasol-Instanz gestartet werden. 
+* Starte den Node-Server indem du in das Projektverzeichnis navigierst und den Befehl "npm start" ausführst. Alternativ und zur Überwachung deines Codes wird aber die Verwendung von Nodemon empfohlen.
+
+### Try it out
+
+Standardgemäß sind bereits zwei Beispielaufrufe integriert, welche dir helfen sollen die Anwendung zu verstehen. Rufe hierzu einfach über deinen Browser die Seite http://localhost:3000/ auf. Wenn die Seite angezeigt wird, ist alles ordnungsgemäß installiert und eingerichtet worden.
+Die Beispieldatenbankzugriffe könnt ihr mit Hilfe der Links aufrufen:
+* http://localhost:3000/users
+* http://localhost:3000/alltables
+
+
 
 
 
